@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: rgb(23, 23, 92);
+    color: white;
+    padding: 5.4px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+#logo {
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+#catogories {
+    height: 60px;
+    float: right;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
