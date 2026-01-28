@@ -6,12 +6,16 @@ body {
     padding: 0;
 }
 #header {
-    background-color: rgb(23, 23, 92);
+    background-color: rgb(247, 225, 129);
     color: white;
-    padding: 5.4px 0;
+    padding: 20px;
+    margin: 0;
+    display: block;
+    padding: 6px 0;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    position: relative;
 }
 #logo {
     float: left;
@@ -73,13 +77,102 @@ body {
 }
 #dropdown-profile a:hover {
     background-color: #f1f1f1;
+    color: rgb(42, 42, 255);
+    font-weight: bold;
 }
 #cart {
-    float: right;
+    float:right;
+    position: relative;
+    display: inline-block;
     margin-right: 20px;
-    margin-left: 15px;
+}
+#cart img {
+    vertical-align: middle;
+    cursor: pointer;
 }
 #searchBar {
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
+}
+#searchBar1 {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#searchBar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(247, 225, 129);
+    color: white;
+    cursor: pointer;
+}
+#searchBar button:hover {
+    background-color: rgb(214, 162, 30);
+}
+#logo-button, #voice-written-button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(23, 23, 92);
+    color: white;
+    cursor: pointer;
+}
+#img:hover, #voice-written-button:hover {
+    background-color: rgb(42, 42, 255);
+}
+#main-content {
+    padding: 20px;
+
+}
+#slideShow {
+    width: 100%;
+    height: 400px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product {
+    width: calc(25% - 20px);
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.product h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.product p {
+    color: #555;
+    font-size: 16px;
+}
+.product button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(23, 23, 92);
+    color: white;
+    cursor: pointer;
+}
+.product button:hover {
+    background-color: rgb(42, 42, 255);
 }
