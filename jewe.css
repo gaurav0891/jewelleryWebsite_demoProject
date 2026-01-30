@@ -2,12 +2,14 @@ body {
     background-color: white;
     color: black;
     font-family: Arial, sans-serif;
+    flex: auto;
     margin: 0;
     padding: 0;
 }
 #header {
     background-color: rgb(247, 225, 129);
     color: white;
+    flex: auto;
     padding: 20px;
     margin: 0;
     display: block;
@@ -18,17 +20,22 @@ body {
     position: relative;
 }
 #logo {
+    flex: initial;
     float: left;
     margin-right: 5px;
     margin-left: 5px;
-    margin-top: 25px;
+    margin-top: 5px;
 }
 #catogories {
+    flex: initial;
+    display: inline-block;
     float: left;
+    margin-left: 5.5px;
     position:relative;
-    display:inline-block;
+
 }
 #dropdown-catogories {
+    flex: 1;
     display: none;
     position: absolute;
     background-color: #f9f9f9;

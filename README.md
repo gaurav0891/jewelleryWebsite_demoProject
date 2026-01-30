@@ -1,7 +1,9 @@
 # jewellery website designing
 
 - first let build a simple html layout like designig.
-*let's work on search bar after making the main contained. 
+*let's work on search bar before making the main contained. 
+
+
 - header 
 . building logo  ; linking to home page 
 . sec building catogorie logo ; which open tab showing catogorie
